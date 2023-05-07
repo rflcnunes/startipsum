@@ -7,6 +7,7 @@
     </button>
     <AmNetworkWomans />
     <AmNetworkMen />
+    <AmTalents />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import AmPartnersDescription from '../../atoms/AmPartnersDescription/AmPartnersD
 import AmCompanies from '../../atoms/AmCompanies/AmCompanies.vue'
 import AmNetworkWomans from '../../atoms/AmNetworkWomans/AmNetworkWomans.vue'
 import AmNetworkMen from '../../atoms/AmNetworkMen/AmNetworkMen.vue'
+import AmTalents from '../AmTalents/AmTalents.vue'
 
 export default {
   name: 'AmHeaderHome',
@@ -22,7 +24,8 @@ export default {
     AmPartnersDescription,
     AmCompanies,
     AmNetworkWomans,
-    AmNetworkMen
-  }
+    AmNetworkMen,
+    AmTalents
+}
 }
 </script>
