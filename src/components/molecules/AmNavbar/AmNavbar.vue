@@ -50,9 +50,9 @@ export default {
   setup() {
     const items = ref([
       { name: 'Home', path: '/' },
-      { name: 'Portfolio', path: '/portfolio' },
-      { name: 'Services', path: '/services' },
-      { name: 'Contact', path: '/contact' }
+      // { name: 'Portfolio', path: '/portfolio' },
+      // { name: 'Services', path: '/services' },
+      // { name: 'Contact', path: '/contact' }
     ])
 
     const showDropdown = ref(false)
