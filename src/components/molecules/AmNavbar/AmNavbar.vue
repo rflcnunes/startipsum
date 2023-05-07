@@ -1,7 +1,7 @@
 <template>
   <nav
     id="am-navbar"
-    class="w-full bg-neutral-800 text-white flex flex-row items-center justify-between pr-4 pl-4 pt-4 pb-4 md:pr-48 md:pl-48 md:pt-6 md:pb-20"
+    class="w-full bg-neutral-800 text-white flex flex-row items-center justify-between pr-4 pl-4 pt-4 pb-4 md:pr-48 md:pl-48 md:pt-4 md:pb-4"
     :class="desktopClasses"
   >
     <IconLogo class="w-28 sm:w-24" />
@@ -50,7 +50,7 @@ export default {
   setup() {
     const items = ref([
       { name: 'Home', path: '/' },
-      // { name: 'Portfolio', path: '/portfolio' },
+      { name: 'Portfolio', path: '/portfolio' },
       // { name: 'Services', path: '/services' },
       // { name: 'Contact', path: '/contact' }
     ])
