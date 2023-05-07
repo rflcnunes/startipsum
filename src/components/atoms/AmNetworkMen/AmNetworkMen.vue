@@ -1,6 +1,6 @@
 <template>
   <div id="am_networking_men" class="flex flex-col justify-center md:flex-row-reverse md:items-center md:pr-16 md:pl-16 md:pt-12 md:pb-20 md:gap-14">
-    <IconMenCoding class="w-96 pl-4 pr-4 lg:min-w-fit lg:p-0" />
+    <IconMenCoding class="max-w-sm p-4 lg:min-w-fit lg:p-0" />
     <div id="am_networking_men-description" class="flex flex-col items-start md:max-w-2xl gap-2 pr-4 pl-4 pt-4 pb-8">
       <span class="font-serif text-2xl">Lorem ipsum dolor sit amet consectetur</span>
       <span class="text-sm text-gray-600"
