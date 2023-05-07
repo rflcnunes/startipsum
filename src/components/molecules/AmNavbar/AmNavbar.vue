@@ -5,19 +5,11 @@
     :class="desktopClasses"
   >
     <IconLogo class="w-28 sm:w-24" />
-    <div
-      v-if="mq.current === 'sm' || mq.current === 'xs'"
-      class="sm:hidden"
-    >
+    <div v-if="mq.current === 'sm' || mq.current === 'xs'" class="sm:hidden">
       <div class="text-white cursor-pointer material-icons" @click="showDropdown = !showDropdown">
         menu
       </div>
-    </div>
-    <div
-      v-if="showDropdown"
-      class="sm:flex sm:items-center sm:justify-between bg-neutral-800"
-    >
-      <div class="fixed top-0 left-0 h-screen w-full z-50 bg-neutral-800">
+      <div v-if="showDropdown" class="fixed top-0 left-0 h-screen w-full z-50 bg-neutral-800">
         <div
           class="text-white cursor-pointer material-icons float-right p-4"
           @click="showDropdown = !showDropdown"
@@ -31,15 +23,15 @@
             }}</RouterLink>
           </li>
         </ul>
-        <ul class="hidden sm:flex flex-wrap">
-          <li v-for="(item, index) in items" :key="index" id="am-navbar__item" class="px-3 py-2">
-            <RouterLink :to="item.path" id="am-navbar__link" class="font-sans hover:underline">{{
-              item.name
-            }}</RouterLink>
-          </li>
-        </ul>
       </div>
     </div>
+    <ul v-else class="hidden sm:flex flex-wrap">
+      <li v-for="(item, index) in items" :key="index" id="am-navbar__item" class="px-3 py-2">
+        <RouterLink :to="item.path" id="am-navbar__link" class="font-sans hover:underline">{{
+          item.name
+        }}</RouterLink>
+      </li>
+    </ul>
   </nav>
 </template>
 
