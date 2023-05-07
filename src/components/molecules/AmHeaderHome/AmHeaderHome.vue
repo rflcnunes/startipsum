@@ -10,7 +10,7 @@
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor
         aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
       </p>
-      <button class="bg-white text-black text-sm pl-6 pr-6 pb-1 pt-1 rounded-sm mt-5">
+      <button class="bg-white text-black text-sm pl-6 pr-6 pb-1 pt-1 rounded-md mt-5">
         Explore
       </button>
     </div>
