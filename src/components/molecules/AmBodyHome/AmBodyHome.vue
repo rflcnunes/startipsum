@@ -7,7 +7,11 @@
     </button>
     <AmNetworkWomans />
     <AmNetworkMen />
+    <AmTalentsDescription />
     <AmTalents />
+    <button class="bg-black text-white text-sm pl-6 pr-6 pb-1 pt-1 rounded-md mt-10">
+      View Team
+    </button>
   </div>
 </template>
 
@@ -17,6 +21,7 @@ import AmCompanies from '../../atoms/AmCompanies/AmCompanies.vue'
 import AmNetworkWomans from '../../atoms/AmNetworkWomans/AmNetworkWomans.vue'
 import AmNetworkMen from '../../atoms/AmNetworkMen/AmNetworkMen.vue'
 import AmTalents from '../AmTalents/AmTalents.vue'
+import AmTalentsDescription from '../../atoms/AmTalentsDescription/AmTalentsDescription.vue'
 
 export default {
   name: 'AmHeaderHome',
@@ -25,7 +30,8 @@ export default {
     AmCompanies,
     AmNetworkWomans,
     AmNetworkMen,
-    AmTalents
+    AmTalentsDescription,
+    AmTalents,
 }
 }
 </script>

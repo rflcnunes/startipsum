@@ -1,5 +1,5 @@
 <template>
-  <div id="am_talents" class="flex flex-row gap-5">
+  <div id="am_talents" class="flex flex-col md:flex-row gap-5">
     <AmTalent nameOfTalent="Peg Legge" occupation="CEO">
       <IconPeg />
     </AmTalent>
