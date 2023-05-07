@@ -1,5 +1,5 @@
 <template>
-  <div id="am_companies" class="pr-16 pl-16 pt-6 pb-20 grid xl:grid-flow-col gap-11 md:grid-flow-row">
+  <div id="am_companies" class="flex flex-col items-center xl:grid xl:grid-flow-col gap-11 md:grid-flow-row">
     <IconGoogle />
     <IconMicrosoft />
     <IconAirbnb />
