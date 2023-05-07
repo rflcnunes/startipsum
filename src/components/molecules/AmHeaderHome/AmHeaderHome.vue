@@ -1,7 +1,7 @@
 <template>
   <div
     id="am_header_home"
-    class="bg-neutral-800 text-white flex items-center justify-between flex-col-reverse pr-4 pl-4 pt-4 pb-8 md:flex-row md:pr-16 md:pl-16 md:pt-6 md:pb-20"
+    class="bg-neutral-800 text-white flex items-center justify-between flex-col-reverse pr-4 pl-4 pt-4 pb-8 md:flex-row md:pr-48 md:pl-48 md:pt-6 md:pb-20"
   >
     <div id="am_header_home-description" class="items-start justify-center flex-col max-w-md">
       <span class="font-mono flex text-md">Welcome</span>
