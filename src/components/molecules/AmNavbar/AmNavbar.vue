@@ -1,7 +1,7 @@
 <template>
   <nav
     id="am-navbar"
-    class="w-full bg-zinc-900 text-white flex items-center justify-between pr-16 pl-16 pt-6 pb-6"
+    class="w-full bg-neutral-800 text-white flex items-center justify-between pr-16 pl-16 pt-6 pb-6"
     :class="desktopClasses"
   >
     <IconLogo class="w-28 sm:w-24" />

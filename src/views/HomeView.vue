@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import AmHeaderHome from '@/components/molecules/AmHeaderHome/AmHeaderHome.vue'
+</script>
 
 <template>
   <main>
-    <h1>Hello World, HomeView!</h1>
+    <AmHeaderHome />
   </main>
 </template>

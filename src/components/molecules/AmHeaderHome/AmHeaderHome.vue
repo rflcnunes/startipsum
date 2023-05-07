@@ -1,0 +1,26 @@
+<template>
+  <div id="am_header_home" class="bg-neutral-800 text-white pr-16 pl-16 pt-6 pb-20 flex items-center justify-between">
+    <div id="am_header_home-description" class="flex items-start justify-center flex-col">
+      <span class="font-mono text-xl">Welcome</span>
+      <span class="font-serif text-3xl">Lorem ipsum dolor sit amet consectetur</span>
+      <p class="mt-5 text-gray-400 lg:max-w-xl">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor
+        aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
+      </p>
+      <button class="bg-white text-black pl-6 pr-6 pb-1 pt-1 rounded-sm mt-5">Explore</button>
+    </div>
+    <div id="am_header_home-image" class="float-left">
+      <IconPeopleNetworking class="w-96 lg:w-full" />
+    </div>
+  </div>
+</template>
+
+<script>
+import IconPeopleNetworking from '@/components/icons/IconPeopleNetworking.vue'
+
+export default {
+  components: {
+    IconPeopleNetworking
+  }
+}
+</script>
