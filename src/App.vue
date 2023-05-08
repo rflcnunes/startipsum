@@ -6,11 +6,11 @@ import ScrollButton from './components/atoms/ScrollButton/ScrollButton.vue'
 </script>
 
 <template>
-  <header>
+  <header class="fixed w-full bg-neutral-800 z-50">
     <AmNavbar />
   </header>
 
-  <RouterView />
+  <RouterView class="relative pt-16" />
   <ScrollButton />
 
   <footer>
