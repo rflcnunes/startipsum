@@ -1,8 +1,16 @@
 <template>
-  <div>
-    <div>title</div>
+  <div class="pb-10 md:pb-60">
+    <div>
+      <div id="am_partners_description" class="flex pt-10 pb-10 flex-col items-center gap-2">
+        <span class="font-mono text-emerald-400 font-medium uppercase tracking-widest">Plans</span>
+        <span class="font-serif font-semibold md:text-xl">Our Services</span>
+        <span class="max-w-xs text-center"
+          >Lorem ipsum, dolor sit amet consectetur adipiscing elit.</span
+        >
+      </div>
+    </div>
     <div class="flex flex-col justify-between">
-      <div class="flex flex-row items-center justify-center gap-5">
+      <div class="flex flex-col md:flex-row items-center justify-center gap-5">
         <div v-for="(card, index) in cards" :key="index">
           <AmCard
             :plan="card.plan"
