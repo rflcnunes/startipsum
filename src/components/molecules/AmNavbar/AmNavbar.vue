@@ -52,7 +52,7 @@ export default {
       { name: 'Home', path: '/' },
       // { name: 'Portfolio', path: '/portfolio' },
       { name: 'Services', path: '/services' },
-      // { name: 'Contact', path: '/contact' }
+      { name: 'Contact', path: '/contact' }
     ])
 
     const showDropdown = ref(false)
