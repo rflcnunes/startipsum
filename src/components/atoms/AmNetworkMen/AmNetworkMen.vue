@@ -1,13 +1,19 @@
 <template>
-  <div id="am_networking_men" class="flex flex-col justify-center md:flex-row-reverse md:items-center md:pr-16 md:pl-16 md:pt-12 md:pb-20 md:gap-14">
+  <div
+    id="am_networking_men"
+    class="flex flex-col justify-center md:flex-row-reverse md:items-center md:pr-16 md:pl-16 md:pt-12 md:pb-20 md:gap-14"
+  >
     <IconMenCoding class="max-w-sm p-4 lg:min-w-fit lg:p-0" />
-    <div id="am_networking_men-description" class="flex flex-col items-start md:max-w-2xl gap-2 pr-4 pl-4 pt-4 pb-8">
+    <div
+      id="am_networking_men-description"
+      class="flex flex-col items-start md:max-w-2xl gap-2 pr-4 pl-4 pt-4 pb-8"
+    >
       <span class="font-serif text-2xl">Lorem ipsum dolor sit amet consectetur</span>
       <span class="text-sm text-gray-600"
         >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor
         aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</span
       >
-      <button class="bg-black text-white text-sm pl-6 pr-6 pb-1 pt-1 rounded-md mt-5">
+      <button class="bg-black text-white text-sm pl-6 pr-6 pb-2 pt-2 rounded-md mt-10">
         Learn More
       </button>
     </div>
@@ -15,12 +21,12 @@
 </template>
 
 <script>
-import IconMenCoding from '../../icons/IconMenCoding.vue';
+import IconMenCoding from '../../icons/IconMenCoding.vue'
 
 export default {
   name: 'AmNetworkMen',
   components: {
     IconMenCoding
-}
+  }
 }
 </script>
