@@ -1,14 +1,11 @@
-# startipsum
+# Startipsum
+### See the finished project on: https://startipsum.netlify.app/
 
-This template should help get you started developing with Vue 3 in Vite.
+<br>
 
-## Recommended IDE Setup
+This project was created with the aim of improving my front-end skills. It was developed using Vue.js 3 and Vite as the main tools, while the styling was done with Tailwind CSS. By using Tailwind, it was possible to create responsive designs in an agile and efficient way.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Furthermore, the application is fully responsive, which means that it can be accessed on various devices, such as smartphones, tablets, and desktops, and will adjust perfectly to the size of the screen on which it is viewed.
 
 ## Project Setup
 
@@ -33,4 +30,3 @@ npm run build
 ```sh
 npm run lint
 ```
-# startipsum
