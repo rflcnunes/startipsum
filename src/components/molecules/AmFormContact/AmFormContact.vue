@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full pr-6 pl-6 md:pr-16 md:pl-16 pt-10 md:pt-36 pb-20 flex flex-col justify-center items-center md:w-fit gap-4">
+  <div class="w-full pr-6 pl-6 md:pr-16 md:pl-16 pt-10 md:pt-36 pb-20 flex flex-col justify-center items-center gap-4">
     <div class="w-full">
       <label for="input" class="block font-medium text-gray-700">Name</label>
       <input
